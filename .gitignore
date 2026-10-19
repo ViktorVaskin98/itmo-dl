@@ -1,0 +1,8 @@
+data/
+hw1_students/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
