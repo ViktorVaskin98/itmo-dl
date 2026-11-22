@@ -1,8 +1,11 @@
 data/
+runs/
 hw1_students/
+hw2_students/
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
 .venv/
 .DS_Store
 Thumbs.db
+hw2/.wip/

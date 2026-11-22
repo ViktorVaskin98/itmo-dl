@@ -1,0 +1,273 @@
+{
+  "track": "nlp",
+  "model": "ai-forever/ruBert-base",
+  "revision": "05f37a2ca9e333fd18f30cd0c96c68d274793c69",
+  "dataset": "iluvvatar/NEREL",
+  "classes": [
+    "AGE",
+    "AWARD",
+    "CITY",
+    "COUNTRY",
+    "CRIME",
+    "DATE",
+    "DISEASE",
+    "DISTRICT",
+    "EVENT",
+    "FACILITY",
+    "FAMILY",
+    "IDEOLOGY",
+    "LANGUAGE",
+    "LAW",
+    "LOCATION",
+    "MONEY",
+    "NATIONALITY",
+    "NUMBER",
+    "ORDINAL",
+    "ORGANIZATION",
+    "PENALTY",
+    "PERCENT",
+    "PERSON",
+    "PRODUCT",
+    "PROFESSION",
+    "RELIGION",
+    "STATE_OR_PROVINCE",
+    "TIME",
+    "WORK_OF_ART"
+  ],
+  "n_train": 10847,
+  "n_val": 1397,
+  "n_test": 1492,
+  "params_total": 177762107,
+  "baseline": {
+    "majority": {
+      "f1_micro": 0.28450954283177987,
+      "f1_macro": 0.24190649655140056,
+      "precision": 0.2804024496937883,
+      "recall": 0.28873873873873873
+    },
+    "random_head": {
+      "f1_micro": 0.003401360544217687,
+      "f1_macro": 0.0030287655709971607,
+      "precision": 0.0020346779900920027,
+      "recall": 0.01036036036036036
+    }
+  },
+  "final": {
+    "f1_micro": 0.8191241802411678,
+    "f1_macro": 0.7100321290011501,
+    "precision": 0.8,
+    "recall": 0.8391850888599913,
+    "token_f1": 0.8694204557278119,
+    "per_type": {
+      "AGE": {
+        "precision": 0.937984496124031,
+        "recall": 0.9029850746268657,
+        "f1-score": 0.9201520912547528,
+        "support": 134
+      },
+      "AWARD": {
+        "precision": 0.6862745098039216,
+        "recall": 0.7368421052631579,
+        "f1-score": 0.7106598984771574,
+        "support": 95
+      },
+      "CITY": {
+        "precision": 0.8695652173913043,
+        "recall": 0.9424083769633508,
+        "f1-score": 0.9045226130653267,
+        "support": 191
+      },
+      "COUNTRY": {
+        "precision": 0.9233870967741935,
+        "recall": 0.8980392156862745,
+        "f1-score": 0.9105367793240557,
+        "support": 255
+      },
+      "CRIME": {
+        "precision": 0.5192307692307693,
+        "recall": 0.9,
+        "f1-score": 0.6585365853658537,
+        "support": 30
+      },
+      "DATE": {
+        "precision": 0.8839103869653768,
+        "recall": 0.9004149377593361,
+        "f1-score": 0.8920863309352519,
+        "support": 482
+      },
+      "DISEASE": {
+        "precision": 0.7636363636363637,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8076923076923076,
+        "support": 49
+      },
+      "DISTRICT": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 19
+      },
+      "EVENT": {
+        "precision": 0.5622254758418741,
+        "recall": 0.6464646464646465,
+        "f1-score": 0.601409553641347,
+        "support": 594
+      },
+      "FACILITY": {
+        "precision": 0.581081081081081,
+        "recall": 0.7049180327868853,
+        "f1-score": 0.637037037037037,
+        "support": 61
+      },
+      "FAMILY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6
+      },
+      "IDEOLOGY": {
+        "precision": 0.75,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.6923076923076924,
+        "support": 28
+      },
+      "LANGUAGE": {
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1-score": 0.7692307692307693,
+        "support": 8
+      },
+      "LAW": {
+        "precision": 0.5319148936170213,
+        "recall": 0.7352941176470589,
+        "f1-score": 0.617283950617284,
+        "support": 34
+      },
+      "LOCATION": {
+        "precision": 0.6363636363636364,
+        "recall": 0.5526315789473685,
+        "f1-score": 0.5915492957746479,
+        "support": 38
+      },
+      "MONEY": {
+        "precision": 0.775,
+        "recall": 0.7560975609756098,
+        "f1-score": 0.7654320987654322,
+        "support": 41
+      },
+      "NATIONALITY": {
+        "precision": 0.7011494252873564,
+        "recall": 0.953125,
+        "f1-score": 0.8079470198675496,
+        "support": 64
+      },
+      "NUMBER": {
+        "precision": 0.8518518518518519,
+        "recall": 0.7970297029702971,
+        "f1-score": 0.8235294117647058,
+        "support": 202
+      },
+      "ORDINAL": {
+        "precision": 0.9420289855072463,
+        "recall": 0.8441558441558441,
+        "f1-score": 0.8904109589041096,
+        "support": 77
+      },
+      "ORGANIZATION": {
+        "precision": 0.7573033707865169,
+        "recall": 0.7910798122065728,
+        "f1-score": 0.7738231917336396,
+        "support": 426
+      },
+      "PENALTY": {
+        "precision": 0.5294117647058824,
+        "recall": 0.75,
+        "f1-score": 0.6206896551724139,
+        "support": 12
+      },
+      "PERCENT": {
+        "precision": 0.42857142857142855,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.42857142857142855,
+        "support": 7
+      },
+      "PERSON": {
+        "precision": 0.9731843575418995,
+        "recall": 0.9775533108866442,
+        "f1-score": 0.9753639417693168,
+        "support": 891
+      },
+      "PRODUCT": {
+        "precision": 0.7413793103448276,
+        "recall": 0.8431372549019608,
+        "f1-score": 0.7889908256880734,
+        "support": 51
+      },
+      "PROFESSION": {
+        "precision": 0.7853949329359166,
+        "recall": 0.8597063621533442,
+        "f1-score": 0.8208722741433022,
+        "support": 613
+      },
+      "RELIGION": {
+        "precision": 0.9166666666666666,
+        "recall": 0.6875,
+        "f1-score": 0.7857142857142857,
+        "support": 16
+      },
+      "STATE_OR_PROVINCE": {
+        "precision": 0.8125,
+        "recall": 0.8524590163934426,
+        "f1-score": 0.8319999999999999,
+        "support": 61
+      },
+      "TIME": {
+        "precision": 0.7708333333333334,
+        "recall": 0.8409090909090909,
+        "f1-score": 0.8043478260869567,
+        "support": 44
+      },
+      "WORK_OF_ART": {
+        "precision": 0.7558139534883721,
+        "recall": 0.7647058823529411,
+        "f1-score": 0.7602339181286549,
+        "support": 85
+      }
+    }
+  },
+  "ablation": {
+    "setting": "freeze",
+    "split": "validation",
+    "full": {
+      "f1_micro": 0.8081209312589651,
+      "f1_macro": 0.6593140280340021,
+      "token_f1": 0.8607922392886015,
+      "train_sec": 123.71251298499999,
+      "trainable_params": 177762107
+    },
+    "frozen": {
+      "f1_micro": 0.071022169903865,
+      "f1_macro": 0.009226545606676687,
+      "token_f1": 0.11833614613322745,
+      "train_sec": 36.690161771000035,
+      "trainable_params": 45371
+    },
+    "frozen_lr_0.001": {
+      "f1_micro": 0.646041465248684,
+      "f1_macro": 0.4842617172967931,
+      "token_f1": 0.7508848042013928,
+      "train_sec": 36.677948890999964,
+      "trainable_params": 45371
+    }
+  },
+  "errors": {
+    "correct": 3662,
+    "boundary": 308,
+    "type": 251,
+    "missed": 219,
+    "spurious": 271
+  },
+  "device": "Tesla T4",
+  "train_time_sec": 123.71251298499999,
+  "fast_mode": false
+}

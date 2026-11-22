@@ -7,6 +7,7 @@
 | ДЗ | Тема | Статус |
 |---|---|---|
 | [ДЗ-1](hw1/) | Свёртки, обучение глубоких сетей, adversarial robustness | ✅ сдано, основная часть + бонусы 7.1–7.5 |
+| [ДЗ-2](hw2/) | NER на русском: ruBert-base + NEREL | ✅ сдано, основная часть + бонусы 6.2-6.5 |
 
 ## Структура
 
@@ -15,6 +16,10 @@
 ├── hw1/
 │   ├── hw1.ipynb      # ноутбук с решением и outputs финального прогона
 │   ├── artifacts/     # metrics.json и checkpoints моделей
+│   └── assets/        # графики для README
+├── hw2/
+│   ├── hw2_nlp.ipynb  # NER, ноутбук с outputs финального прогона
+│   ├── artifacts/     # metrics.json и bonus.json
 │   └── assets/        # графики для README
 └── requirements.txt
 ```
